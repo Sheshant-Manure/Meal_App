@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(194, 248, 248);
+}
+
+.jumbotron {
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.jumbotron h1 {
+    padding: 10px;
+}
+
+#searchbox {
+    padding: 10px;
+    background-image: url('./images/magnifier.png');
+    background-size: 20px 20px; 
+    background-position: 10px center;
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    border: 1px solid rgb(149, 149, 149);
+    border-radius: 40px;
+    width: 500px;
+}
+
+img#meal {
+    width: 200px;
+}
+
+ul#search-result {
+    list-style-type: none;
+}
+
+ul#search-result li {
+    margin: auto ;
+    max-width: 300px;
+    background-color: rgb(138, 247, 247, 0.36);
+    text-align: left;
+    font-size: medium;
+}
+
+ul#search-result li a {
+    color: rgb(0, 175, 175);
+    padding: 5px;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+ul#search-result li a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+a#favourites {
+    text-decoration: none;
+}
+
+.center {
+    text-align: center;
+}
+
+#favoritesList {
+    list-style: none;
+}
